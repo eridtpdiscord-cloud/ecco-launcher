@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/loader/bootstrap.lua",
+      "destination": "/loader/bootstrap.lua"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
