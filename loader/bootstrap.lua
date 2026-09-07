@@ -20,7 +20,7 @@ end
 
 notify("Ecco Hub V3", "Connecting to cloud backend...")
 
-local cdnUrl = "https://raw.githubusercontent.com/eridtpdiscord-cloud/ecco-hub/main/storage_hunters_obsidian.lua"
+local cdnUrl = "https://raw.githubusercontent.com/eridtpdiscord-cloud/ecco-hub/main/storage_hunters_full.lua"
 
 local ok, payload = pcall(function()
     return game:HttpGet(cdnUrl, true)
